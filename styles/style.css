@@ -32,7 +32,7 @@ header nav .links {
     margin-top:-35px;
     font-family:'Courier New', Courier, monospace;
     list-style-type: none;
-    font-size: medium;
+    font-size: 18px;
     font-weight: 200;
     
 }
@@ -66,8 +66,9 @@ div .landing {
     position: absolute;
     color: white;
     top: 270px;
-    left: 275px;
-    font-size: 85px;
+    left: 285px;
+    right: 215px;
+    font-size: 82px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -75,9 +76,21 @@ div .landing {
 .image-text-normal {
     position: absolute;
     color:white;
-    top:450px;
-    left: ;
-    font-size: larger;
+    top:400px;
+    left: 370px;
+    right: 355px;
+    font-size: 25px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.image-text-normal2 {
+    position: absolute;
+    color:white;
+    top: 425px;
+    left: 405px;
+    right: 345px;
+    font-size: 25px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 #landing {
@@ -85,4 +98,24 @@ div .landing {
     width:100%;
     height:100vh;
 
+}
+
+.whats-on {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 50px 0 0 0;
+    
+}
+
+hr {
+    display: block;
+    border:0;
+    border-bottom:4px solid #00B172;
+    width: 25%;
+    
+   
 }
